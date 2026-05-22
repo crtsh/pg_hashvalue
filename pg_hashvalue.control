@@ -1,0 +1,6 @@
+comment = 'Efficient fixed-length storage for hash values (MD5, SHA-1, SHA-256)'
+default_version = '1.0'
+module_pathname = '$libdir/pg_hashvalue'
+relocatable = true
+trusted = true
+requires = 'pgcrypto'
